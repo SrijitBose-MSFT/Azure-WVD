@@ -25,7 +25,6 @@
     "OperatingSystem": {
       "type": "string",
       "defaultValue": "Windows2019Datacenter"
-     
     },
     "VMSize": {
       "type": "string",

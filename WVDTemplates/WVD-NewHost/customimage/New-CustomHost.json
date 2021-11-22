@@ -10,7 +10,8 @@
       "type": "string"
     },
     "AdminPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "defaultValue": "Password123$"
     },
     "DomainFQDN": {
       "type": "string"

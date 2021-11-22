@@ -6,7 +6,7 @@
          {
              "type": "Microsoft.Compute/virtualMachines/extensions",
              "apiVersion": "2018-06-01",
-             "name": "[concat(variables('VMName'),copyIndex(),'/CustomScriptExtension')]",
+             "name": "[concat('WVD-'),'/CustomScriptExtension')]",
              "location": "[resourceGroup().location]",
              "properties": {
                  "publisher": "Microsoft.Compute",

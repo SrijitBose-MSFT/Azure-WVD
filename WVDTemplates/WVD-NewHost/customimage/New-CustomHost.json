@@ -24,9 +24,7 @@
     },
     "OperatingSystem": {
       "type": "string",
-      "metadata": {
-        "description": "Provide ResourceID of your custom image"
-      }
+      "defaultValue": "Windows2019Datacenter"
      
     },
     "VMSize": {
